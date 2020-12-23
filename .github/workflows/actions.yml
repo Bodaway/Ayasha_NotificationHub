@@ -27,4 +27,4 @@ jobs:
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           region: westeurope
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: $GITHUB_WORKSPACE/azure/azuredeploy.json
+          template: ./azure/azuredeploy.json
